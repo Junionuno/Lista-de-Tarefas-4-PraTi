@@ -373,7 +373,9 @@ const MovieApp = () => {
         <h1 className="text-4xl font-bold text-center mb-8 text-red-400">
           ❤️ Meus Favoritos
         </h1>
-
+        <h1 className="text-4xl font-bold text-center mb-8 text-red-400">
+          ❤️ Karinny minha linda! ❤️
+        </h1>
         {favorites.length === 0 ? (
           <div className="text-center py-12">
             <Heart className="h-16 w-16 mx-auto mb-4 text-gray-600" />

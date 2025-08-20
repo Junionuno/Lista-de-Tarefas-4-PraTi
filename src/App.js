@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Star, Heart, ArrowLeft, ArrowRight, Loader2, AlertCircle } from 'lucide-react';
 
-const API_KEY = 'c06cf20217f8cf5f1dbaecebb010e2a1';
+const API_KEY = process.env.REACT_APP_TMDB_API_KEY || 'c06cf20217f8cf5f1dbaecebb010e2a1';
 const BASE_URL = 'https://api.themoviedb.org/3';
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 

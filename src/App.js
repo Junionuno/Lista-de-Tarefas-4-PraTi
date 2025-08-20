@@ -128,8 +128,11 @@ const MovieApp = () => {
     <div className="min-h-screen bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-center mb-8 text-blue-400">
-          🎬 Busca de Filmes
+          🎬 Busca de Filmes 
         </h1>
+        <p className="text-4xl font-bold text-center mb-8 text-blue-400">
+         🎬 Me dá snicker Pedro 🎬
+        </p>
         
         <div className="max-w-2xl mx-auto mb-8">
           <div className="relative">
